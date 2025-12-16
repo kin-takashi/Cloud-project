@@ -1,0 +1,39 @@
+E:\Source_Code\Cloud\inventory-app\
+│
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── database.py
+│   ├── models.py
+│   ├── schemas.py
+│   ├── crud.py
+│   └── routers/
+│       ├── __init__.py
+│       └── items.py
+│
+├── alembic/
+│   ├── versions/
+│   ├── env.py
+│   ├── README
+│   └── script.py.mako
+│
+├── k8s/
+│   ├── postgres-pv.yaml
+│   ├── postgres-pvc.yaml
+│   ├── postgres-deployment.yaml
+│   ├── postgres-service.yaml
+│   ├── inventory-deployment.yaml
+│   └── inventory-service.yaml
+│
+├── tests/
+│   └── test_api.py
+│
+├── .env
+├── .env.example
+├── .dockerignore
+├── .gitignore
+├── alembic.ini
+├── docker-compose.yml
+├── Dockerfile
+├── requirements.txt
+└── README.md
